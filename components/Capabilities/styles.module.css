@@ -1,0 +1,30 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.main {
+  padding: 2rem 3rem;
+}
+
+.main h2 {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1080px) {
+  .main {
+    padding: 2rem 0rem;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }
+}

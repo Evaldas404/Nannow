@@ -1,0 +1,25 @@
+.main {
+  padding: 2rem 3rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.main h2 {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1080px) {
+  .main {
+    padding: 2rem 0rem;
+  }
+}
+@media (max-width: 750px) {
+  .cards {
+    flex-direction: column;
+  }
+}

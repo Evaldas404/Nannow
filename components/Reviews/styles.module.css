@@ -1,0 +1,62 @@
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: start;
+  padding-top: 1rem;
+}
+
+.main {
+  padding: 3rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.button img {
+  width: 24px;
+  height: 24px;
+}
+
+.button button {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.button button:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 1080px) {
+  .main {
+    padding: 2rem 0rem;
+  }
+  .reviews {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+
+  .reviews {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

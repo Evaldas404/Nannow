@@ -1,0 +1,16 @@
+
+
+.main {
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid black;
+  display: flex;
+  gap: 4px;
+  border-radius: 40px;
+
+  -webkit-appearance: none;
+  background-image: url("../../../assets/arrowDown.svg");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  cursor: pointer;
+}

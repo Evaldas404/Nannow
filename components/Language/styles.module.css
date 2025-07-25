@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 20px;
+  width: 100%;
+  padding: 16px 24px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.text h5 {
+  color: rgba(0, 0, 0, 0.5);
+}
