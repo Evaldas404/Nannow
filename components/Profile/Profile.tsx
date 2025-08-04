@@ -2,14 +2,14 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.css";
 import ExpandingText from "../Button/ExpandingText/ExpandingText";
-import share from "../../assets/Share.svg";
+import share from "../../assets/share.svg";
 import verified from "../../assets/verified.png";
 import { useState } from "react";
-import AppleButton from "../../assets/AppleButton.png";
-import PlayButton from "../../assets/PlayButton.png";
+import AppleButton from "../../assets/appleButton.png";
+import PlayButton from "../../assets/playButton.png";
 import ButtonWithIcon from "../Button/ButtonWithIcon/ButtonWithIcon";
 import facebookIcon from "../../assets/facebook.png";
-import instagramIcon from "../../assets/Instagram.png";
+import instagramIcon from "../../assets/instagram.png";
 import mailIcon from "../../assets/mail.png";
 
 type ProfileProps = {

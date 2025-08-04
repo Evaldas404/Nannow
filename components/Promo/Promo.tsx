@@ -2,9 +2,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "./styles.module.css";
-import HappyPhoto from "../../assets/HappyPhoto.png";
-import PlayButton from "../../assets/PlayButton.png";
-import AppleButton from "../../assets/AppleButton.png";
+import HappyPhoto from "../../assets/happyPhoto.png";
+import PlayButton from "../../assets/playButton.png";
+import AppleButton from "../../assets/appleButton.png";
 
 const Promo = () => {
   return (

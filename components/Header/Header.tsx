@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 import LanguageSelectButton from "../Button/LanguageSelectButton/LanguageSelectButton";
-import Button from "../Button/SimpleButton/Button";
+import Button from "../Button/Button/Button";
 import Link from "next/link";
 import burgerMenu from "../../assets/burgerMenu.svg";
 

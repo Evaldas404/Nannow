@@ -3,8 +3,8 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
-import PlayButton from "../../assets/PlayButton.png";
-import AppleButton from "../../assets/AppleButton.png";
+import PlayButton from "../../assets/playButton.png";
+import AppleButton from "../../assets/appleButton.png";
 
 type FooterLink = {
   title: string;
